@@ -617,7 +617,7 @@ public class BibliotecaIG {
         mostrar(sb.toString());
     }
     
-    // Argumentos variables (metodos auxiliares)
+    //Metodos auxiliares)
     private Frame nuevaVentana(String titulo, int ancho, int alto){
         Frame ventana = new Frame(titulo);
         ventana.setSize(ancho,alto);
@@ -654,6 +654,7 @@ public class BibliotecaIG {
         areaResultado.setText(texto);
     }
     
+    //Argumentos Variables
     //Los puntos significan que se puede recibir cualquier cantidad de textfield
     private void limpiar(TextField... campos){
         for(TextField tf : campos){
